@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-21",
+  "source": "Shields.io",
+  "badges": {
+    "linkedin": "https://img.shields.io/badge/LinkedIn-6495FF?style=for-the-badge",
+    "portfolio": "https://img.shields.io/badge/Portf%C3%B3lio-56D6DB?style=for-the-badge&logo=github&logoColor=0D1526",
+    "email": "https://img.shields.io/badge/E--mail-17263B?style=for-the-badge&logo=gmail&logoColor=FFFFFF",
+    "python": "https://img.shields.io/badge/Python-17263B?style=for-the-badge&logo=python&logoColor=FFD166",
+    "sql": "https://img.shields.io/badge/SQL-17263B?style=for-the-badge&logo=sqlite&logoColor=56D6DB",
+    "postgresql": "https://img.shields.io/badge/PostgreSQL-17263B?style=for-the-badge&logo=postgresql&logoColor=7FA9E8",
+    "powerbi": "https://img.shields.io/badge/Power%20BI-17263B?style=for-the-badge&logo=powerbi&logoColor=F2C811",
+    "pandas": "https://img.shields.io/badge/Pandas-17263B?style=for-the-badge&logo=pandas&logoColor=BA9BFA",
+    "sqlalchemy": "https://img.shields.io/badge/SQLAlchemy-17263B?style=for-the-badge&logo=sqlalchemy&logoColor=FFFFFF",
+    "scikitlearn": "https://img.shields.io/badge/Scikit--learn-17263B?style=for-the-badge&logo=scikitlearn&logoColor=F2AB73",
+    "git": "https://img.shields.io/badge/Git-17263B?style=for-the-badge&logo=git&logoColor=F47E65",
+    "github-actions": "https://img.shields.io/badge/GitHub%20Actions-17263B?style=for-the-badge&logo=githubactions&logoColor=6495FF"
+  }
+}

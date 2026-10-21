@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="350" viewBox="0 0 1280 350" role="img">
+<title>Gabriel Álef — Analista de Dados, BI e Automação</title>
+<desc>Python, SQL e Power BI. Integração de fontes, bases analíticas e indicadores.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0a1120"/><stop offset="1" stop-color="#13233c"/></linearGradient>
+<pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#7ca6de" stroke-opacity=".06"/></pattern></defs>
+<rect width="1280" height="350" rx="24" fill="url(#bg)"/><rect width="1280" height="350" rx="24" fill="url(#grid)"/>
+<rect x="48" y="48" width="4" height="34" rx="2" fill="#56d6db"/>
+<g font-family="Segoe UI,Arial,sans-serif"><text x="72" y="71" fill="#56d6db" font-size="15" font-weight="600" letter-spacing="3">DADOS / BI / AUTOMAÇÃO</text>
+<text x="48" y="164" fill="#eef4ff" font-size="69" font-weight="700" letter-spacing="-2">Gabriel Álef</text>
+<text x="50" y="207" fill="#bdcce2" font-size="23">Python, SQL e Power BI para rotinas que funcionam.</text>
+<text x="50" y="289" fill="#8ba3c5" font-size="13" letter-spacing="2">01 / INTEGRAR</text><text x="245" y="289" fill="#8ba3c5" font-size="13" letter-spacing="2">02 / ORGANIZAR</text><text x="465" y="289" fill="#8ba3c5" font-size="13" letter-spacing="2">03 / ANALISAR</text>
+<path d="M906 102H986V158H1080V239H1180" fill="none" stroke="#56d6db" stroke-width="2" stroke-opacity=".6"/>
+<path d="M862 239H946V214H1037V100H1180" fill="none" stroke="#6495ff" stroke-width="2" stroke-opacity=".5"/>
+<rect x="854" y="74" width="100" height="64" rx="12" fill="#172941" stroke="#355173"/><text x="879" y="113" fill="#56d6db" font-size="19" font-weight="600">API</text>
+<rect x="991" y="130" width="100" height="64" rx="12" fill="#172941" stroke="#355173"/><text x="1015" y="169" fill="#9dbbff" font-size="19" font-weight="600">SQL</text>
+<rect x="1109" y="211" width="100" height="64" rx="12" fill="#172941" stroke="#355173"/><text x="1145" y="250" fill="#eef4ff" font-size="19" font-weight="600">BI</text>
+<circle cx="946" cy="214" r="5" fill="#6495ff"/><circle cx="1080" cy="100" r="5" fill="#56d6db"/>
+</g></svg>
