@@ -3,7 +3,7 @@
   "username": "GabrielTIAlef",
   "public_repositories": 7,
   "languages": {
-    "Python": 329593,
+    "Python": 353458,
     "HTML": 26780,
     "Jupyter Notebook": 11647
   },
@@ -1475,9 +1475,9 @@
     },
     {
       "date": "2026-10-21",
-      "level": 0,
-      "count": 0
+      "level": 1,
+      "count": 1
     }
   ],
-  "scope": "Somente repositórios públicos próprios e calendário público do ano atual; sem autenticação."
+  "scope": "Somente repositórios públicos próprios e calendário público do ano atual."
 }
