@@ -82,13 +82,31 @@ def build():
                            + text(24, 180, stack, 10, BLUE, 600)
                            + text(24, 203, f'{count} testes · validação em 20/10/2026', 12, MUTED))
             (assets / 'cards/gestao_geral-mobile.svg').write_text(svg(440, 220, name, mobile_card), encoding='utf-8')
+    name = 'Agente de Inteligência Operacional'
+    description = f'{name}. Indicadores SQL, chat com Gemini e relatórios com n8n. 40 testes Python registrados.'
+    for width, suffix in ((896, ''), (440, '-mobile')):
+        body = text(24, 31, '06 / IA GENERATIVA E AUTOMAÇÃO', 10, CYAN, 700)
+        if suffix:
+            body += text(24, 67, 'Agente de Inteligência', 28, TEXT, 700)
+            body += text(24, 98, 'Operacional', 28, TEXT, 700)
+        else:
+            body += text(24, 78, name, 34, TEXT, 700)
+        body += text(24, 122, 'Indicadores SQL e chat com Gemini.', 14, MUTED)
+        body += text(24, 143, 'Relatórios operacionais com n8n.', 14, MUTED)
+        body += f'<path d="M24 155H{width-24}" stroke="{BORDER}"/>'
+        body += text(24, 180, 'PYTHON / FASTAPI / REACT / POSTGRESQL / GEMINI / N8N', 10, BLUE, 600)
+        body += text(24, 203, '40 testes Python · demo local com dados sintéticos', 12, MUTED)
+        body += text(width-43, 78, '↗', 23, CYAN)
+        (assets / 'cards' / f'agente_inteligencia_operacional{suffix}.svg').write_text(
+            svg(width, 220, description, body), encoding='utf-8')
+
     footer = text(24, 32, 'GABRIEL ÁLEF', 12, CYAN, 700) + text(24, 59, 'Dados, BI e automação. Vamos conversar sobre o próximo projeto?', 15, MUTED)
     footer += '<path d="M650 48h45l13-13 22 23 14-10h126" fill="none" stroke="#6495ff" stroke-width="2"/>'
     (assets / 'footer.svg').write_text(svg(896, 85, 'Gabriel Álef — contato e projetos de dados', footer), encoding='utf-8')
     (assets / 'footer-mobile.svg').write_text(svg(440, 100, 'Gabriel Álef — vamos conversar',
         text(24, 28, 'GABRIEL ÁLEF', 12, CYAN, 700) + text(24, 56, 'Dados, BI e automação.', 17, MUTED)
         + text(24, 81, 'Vamos conversar sobre o próximo projeto?', 15, MUTED)), encoding='utf-8')
-    print('Banner, animação, cinco cards e rodapé gerados.')
+    print('Banner, animação, seis cards e rodapé gerados.')
 
 
 if __name__ == '__main__':

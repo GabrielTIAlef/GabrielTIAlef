@@ -66,7 +66,9 @@ Também mantenho estudos de **segmentação de clientes e séries temporais**, c
   <a href="https://github.com/GabrielTIAlef/bolsa_valores"><img src="assets/cards/bolsa_valores.svg" width="440" alt="Bolsa de Valores — séries temporais e resultados reconciliados entre SQLite e Python. 61 testes registrados." /></a>
 </p>
 
-Os cinco projetos têm demonstrações com **dados fictícios, testes automatizados e GitHub Actions**. Os READMEs distinguem experiência original, implementação pública e resultados efetivamente validados. Os testes não equivalem à homologação de sistemas corporativos ou à execução dos painéis no Power BI Desktop.
+<a href="https://github.com/GabrielTIAlef/agente_inteligencia_operacional"><picture><source media="(max-width: 600px)" srcset="assets/cards/agente_inteligencia_operacional-mobile.svg" /><img src="assets/cards/agente_inteligencia_operacional.svg" width="100%" alt="Agente de Inteligência Operacional — indicadores SQL, chat com Gemini e relatórios com n8n. 40 testes Python registrados." /></picture></a>
+
+Os seis projetos têm demonstrações com **dados fictícios e testes automatizados**. Os READMEs distinguem experiência original, implementação pública e resultados efetivamente validados. Os testes não equivalem à homologação de sistemas corporativos ou à execução dos painéis no Power BI Desktop.
 
 ### Um resultado da experiência profissional
 
