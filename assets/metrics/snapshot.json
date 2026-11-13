@@ -1,14 +1,14 @@
 {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "username": "GabrielTIAlef",
   "public_repositories": 8,
   "languages": {
-    "Python": 431583,
-    "HTML": 159953,
-    "JavaScript": 34380,
+    "Python": 463577,
+    "HTML": 159958,
+    "JavaScript": 34612,
     "CSS": 21950,
     "Jupyter Notebook": 11647,
-    "PowerShell": 2146,
+    "PowerShell": 4735,
     "Dockerfile": 552
   },
   "days": [
@@ -1590,7 +1590,12 @@
     {
       "date": "2026-11-12",
       "level": 1,
-      "count": 2
+      "count": 3
+    },
+    {
+      "date": "2026-11-13",
+      "level": 0,
+      "count": 0
     }
   ],
   "scope": "Somente repositórios públicos próprios e calendário público do ano atual."
