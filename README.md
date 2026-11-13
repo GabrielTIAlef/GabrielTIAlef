@@ -36,56 +36,129 @@ Os casos de experiência profissional preservam o contexto e os resultados relat
 
 ## Tecnologias que uso nos projetos
 
+As ferramentas abaixo aparecem nos projetos públicos e na experiência documentada. Estão organizadas por uso; a implantação da demonstração é apresentada como prática do projeto, sem equivaler a especialização em cloud.
+
+**Dados, linguagens e bancos**
+
 <p>
   <img src="assets/badges/python.svg" alt="Python" />
   <img src="assets/badges/sql.svg" alt="SQL" />
   <img src="assets/badges/postgresql.svg" alt="PostgreSQL" />
-  <img src="assets/badges/powerbi.svg" alt="Power BI" />
+  <img src="assets/badges/sqlite.svg" alt="SQLite" />
   <img src="assets/badges/pandas.svg" alt="Pandas" />
+  <img src="assets/badges/numpy.svg" alt="NumPy" />
   <img src="assets/badges/sqlalchemy.svg" alt="SQLAlchemy" />
-  <img src="assets/badges/scikitlearn.svg" alt="Scikit-learn" />
-  <img src="assets/badges/git.svg" alt="Git" />
-  <img src="assets/badges/github-actions.svg" alt="GitHub Actions" />
+  <img src="assets/badges/requests.svg" alt="Requests" />
+  <img src="assets/badges/psycopg.svg" alt="psycopg" />
+  <img src="assets/badges/openpyxl.svg" alt="openpyxl" />
 </p>
 
-**Na prática:** APIs REST, DAX, Power Query, modelagem dimensional, cargas transacionais, reconciliação, automação e testes. As ferramentas aparecem nos projetos conforme a necessidade de cada problema.
+**Business Intelligence**
+
+<p>
+  <img src="assets/badges/powerbi.svg" alt="Power BI" />
+  <img src="assets/badges/dax.svg" alt="DAX" />
+  <img src="assets/badges/powerquery.svg" alt="Power Query" />
+  <img src="assets/badges/excel.svg" alt="Excel avançado" />
+</p>
+
+**Análise, modelagem e visualização**
+
+<p>
+  <img src="assets/badges/scikitlearn.svg" alt="Scikit-learn" />
+  <img src="assets/badges/matplotlib.svg" alt="Matplotlib" />
+  <img src="assets/badges/jupyter.svg" alt="Jupyter" />
+</p>
+
+**Integração e automação**
+
+<p>
+  <img src="assets/badges/apis-rest.svg" alt="APIs REST" />
+  <img src="assets/badges/oauth2.svg" alt="OAuth2" />
+  <img src="assets/badges/selenium.svg" alt="Selenium" />
+  <img src="assets/badges/watchdog.svg" alt="Watchdog" />
+  <img src="assets/badges/n8n.svg" alt="n8n" />
+  <img src="assets/badges/powershell.svg" alt="PowerShell" />
+</p>
+
+**IA, API e interface**
+
+<p>
+  <img src="assets/badges/gemini.svg" alt="Gemini" />
+  <img src="assets/badges/google-genai.svg" alt="Google Gen AI SDK" />
+  <img src="assets/badges/fastapi.svg" alt="FastAPI" />
+  <img src="assets/badges/pydantic.svg" alt="Pydantic" />
+  <img src="assets/badges/uvicorn.svg" alt="Uvicorn" />
+  <img src="assets/badges/react.svg" alt="React" />
+  <img src="assets/badges/vite.svg" alt="Vite" />
+  <img src="assets/badges/javascript.svg" alt="JavaScript" />
+  <img src="assets/badges/html.svg" alt="HTML" />
+  <img src="assets/badges/css.svg" alt="CSS" />
+</p>
+
+**Versionamento, testes e ambiente da demonstração**
+
+<p>
+  <img src="assets/badges/git.svg" alt="Git" />
+  <img src="assets/badges/github.svg" alt="GitHub" />
+  <img src="assets/badges/github-actions.svg" alt="GitHub Actions" />
+  <img src="assets/badges/pytest.svg" alt="pytest" />
+  <img src="assets/badges/docker.svg" alt="Docker" />
+  <img src="assets/badges/docker-compose.svg" alt="Docker Compose" />
+  <img src="assets/badges/nginx.svg" alt="Nginx" />
+  <img src="assets/badges/linux.svg" alt="Linux" />
+  <img src="assets/badges/systemd.svg" alt="systemd" />
+  <img src="assets/badges/oracle-vm.svg" alt="Oracle VM" />
+</p>
+
+**Integrações trabalhadas:** Gestta, Onvio, Notion, Conta Azul e Slack. Os exemplos públicos usam dados fictícios e serviços simulados quando dependem de contas corporativas.
+
+**Outras ferramentas da experiência e formação:** MySQL, Power Platform e Google Sheets.
+
+**Métodos e práticas:** ETL, APIs REST, OAuth2, modelagem relacional e dimensional, fatos e dimensões, KPIs, análise exploratória, KMeans, séries temporais, cargas transacionais, reconciliação, automação e testes.
 
 ## Projetos para conhecer meu trabalho
 
-Os projetos mostram competências complementares. Para uma primeira leitura, estes são os problemas e as decisões que cada caso permite discutir:
-
-| Projeto | Problema ou pergunta | Conhecimento que apresento |
-| --- | --- | --- |
-| [Gestão Geral](https://github.com/GabrielTIAlef/gestao_geral) | Como consolidar tarefas e cadastros para acompanhar uma operação? | Integração de fontes, ETL e indicadores operacionais, com resultado corporativo relatado |
-| [Gestão Financeira](https://github.com/GabrielTIAlef/gestao_financeira) | Como organizar informações financeiras sem perder lançamentos ou duplicar títulos? | Modelagem dimensional, chaves de negócio e reconciliação para BI |
-| [Automação Financeira](https://github.com/GabrielTIAlef/automacao_financeira) | Como combinar recebíveis automáticos e acompanhamento manual? | Integração de APIs, preservação de informações e recuperação de falhas |
-| [Análises de Marketing](https://github.com/GabrielTIAlef/analises_marketing) | Como descrever perfis de clientes e avaliar uma segmentação? | Análise exploratória, KMeans, sensibilidade e interpretação dos grupos |
-| [Bolsa de Valores](https://github.com/GabrielTIAlef/bolsa_valores) | Como comparar séries sem confundir preço, retorno e risco? | Indicadores temporais, SQL e comunicação de resultados descritivos |
-| [Inteligência Operacional](https://github.com/GabrielTIAlef/agente_inteligencia_operacional) | Como conectar perguntas operacionais, indicadores, monitoramento e IA? | Análise de negócio, PostgreSQL, BI e uso de ferramentas restritas no assistente |
-
-As descrições e os resultados dos estudos fictícios não são apresentados como impacto em clientes reais. Os cards abaixo dão acesso aos repositórios; números de testes neles representam registros de validação, não uma medida de experiência profissional.
-
-<a href="https://github.com/GabrielTIAlef/gestao_geral"><picture><source media="(max-width: 600px)" srcset="assets/cards/gestao_geral-mobile.svg" /><img src="assets/cards/gestao_geral.svg" width="100%" alt="Gestão Geral — APIs, ETL e PostgreSQL, com validação de cargas e demonstração reproduzível. 72 testes registrados." /></picture></a>
-
 <p>
-  <a href="https://github.com/GabrielTIAlef/gestao_financeira"><img src="assets/cards/gestao_financeira.svg" width="440" alt="Gestão Financeira — ETL, modelagem dimensional, carga transacional e reconciliação. 55 testes registrados." /></a>
-  <a href="https://github.com/GabrielTIAlef/automacao_financeira"><img src="assets/cards/automacao_financeira.svg" width="440" alt="Automação Financeira — integrações, coordenação e controle de falhas. 65 testes registrados." /></a>
+  <a href="https://github.com/GabrielTIAlef/gestao_geral"><picture><source media="(max-width: 600px)" srcset="assets/cards/gestao_geral-mobile.svg" /><img src="assets/cards/gestao_geral.svg" width="100%" alt="Gestão Geral — Como consolidar tarefas e cadastros para acompanhar uma operação? — Integração de fontes, ETL e indicadores operacionais, com resultado corporativo relatado." /></picture></a>
 </p>
 
-Também mantenho estudos de **segmentação de clientes e séries temporais**, com metodologia, exemplos fictícios e limites documentados:
-
 <p>
-  <a href="https://github.com/GabrielTIAlef/analises_marketing"><img src="assets/cards/analises_marketing.svg" width="440" alt="Análises de Marketing — KMeans, comparação de grupos e estabilidade. 43 testes registrados." /></a>
-  <a href="https://github.com/GabrielTIAlef/bolsa_valores"><img src="assets/cards/bolsa_valores.svg" width="440" alt="Bolsa de Valores — séries temporais e resultados reconciliados entre SQLite e Python. 61 testes registrados." /></a>
+  <a href="https://github.com/GabrielTIAlef/gestao_financeira"><picture><source media="(max-width: 600px)" srcset="assets/cards/gestao_financeira-mobile.svg" /><img src="assets/cards/gestao_financeira.svg" width="100%" alt="Gestão Financeira — Como organizar informações financeiras sem perder lançamentos ou duplicar títulos? — Modelagem dimensional, chaves de negócio e reconciliação para BI." /></picture></a>
 </p>
 
-<a href="https://github.com/GabrielTIAlef/agente_inteligencia_operacional"><picture><source media="(max-width: 600px)" srcset="assets/cards/agente_inteligencia_operacional-mobile.svg" /><img src="assets/cards/agente_inteligencia_operacional.svg" width="100%" alt="Agente de Inteligência Operacional — indicadores SQL, chat com Gemini e relatórios com n8n. 40 testes Python registrados." /></picture></a>
+<p>
+  <a href="https://github.com/GabrielTIAlef/automacao_financeira"><picture><source media="(max-width: 600px)" srcset="assets/cards/automacao_financeira-mobile.svg" /><img src="assets/cards/automacao_financeira.svg" width="100%" alt="Automação Financeira — Como combinar recebíveis automáticos e acompanhamento manual? — Integração de APIs, preservação de informações e recuperação de falhas." /></picture></a>
+</p>
 
-Os seis projetos têm demonstrações com **dados fictícios e testes automatizados**. Os READMEs distinguem experiência original, implementação pública e resultados efetivamente validados. Os testes não equivalem à homologação de sistemas corporativos ou à execução dos painéis no Power BI Desktop.
+<p>
+  <a href="https://github.com/GabrielTIAlef/analises_marketing"><picture><source media="(max-width: 600px)" srcset="assets/cards/analises_marketing-mobile.svg" /><img src="assets/cards/analises_marketing.svg" width="100%" alt="Análises de Marketing — Como descrever perfis de clientes e avaliar uma segmentação? — Análise exploratória, KMeans, sensibilidade e interpretação dos grupos." /></picture></a>
+</p>
 
-### Um resultado da experiência profissional
+<p>
+  <a href="https://github.com/GabrielTIAlef/bolsa_valores"><picture><source media="(max-width: 600px)" srcset="assets/cards/bolsa_valores-mobile.svg" /><img src="assets/cards/bolsa_valores.svg" width="100%" alt="Bolsa de Valores — Como comparar séries sem confundir preço, retorno e risco? — Indicadores temporais, SQL e comunicação de resultados descritivos." /></picture></a>
+</p>
 
-No projeto de gestão operacional, a atualização dos painéis passou de **cerca de cinco dias para menos de cinco minutos**, conforme meu relato de experiência registrado no [contexto do Gestão Geral](https://github.com/GabrielTIAlef/gestao_geral#resultados-observados-no-ambiente-corporativo). Esse resultado pertence ao ambiente corporativo original; não é um benchmark das demonstrações públicas.
+<p>
+  <a href="https://github.com/GabrielTIAlef/agente_inteligencia_operacional"><picture><source media="(max-width: 600px)" srcset="assets/cards/agente_inteligencia_operacional-mobile.svg" /><img src="assets/cards/agente_inteligencia_operacional.svg" width="100%" alt="Agente de Inteligência Operacional — Como conectar perguntas operacionais, indicadores, monitoramento e IA? — Análise de negócio, PostgreSQL, BI e uso de ferramentas restritas no assistente." /></picture></a>
+</p>
+
+Os cards conectam problema, abordagem e competências; cada um abre o respectivo projeto. Os READMEs distinguem experiência original, implementação pública e resultados validados. As demonstrações usam dados fictícios.
+
+## Resultados da experiência profissional
+
+Na minha atuação com Dados e BI, os principais resultados e entregas registrados foram:
+
+- **De cerca de cinco dias para cerca de cinco minutos:** automatizei uma rotina de consolidação e estruturação de dados. O [Gestão Geral](https://github.com/GabrielTIAlef/gestao_geral#resultados-observados-no-ambiente-corporativo) contextualiza esse resultado.
+- **15 dashboards em Power BI, sendo seis gerenciais:** desenvolvi e mantive painéis para gestores e equipes acompanharem indicadores, produtividade, processos e desempenho.
+- **Contribuição para redução aproximada de 70% da inadimplência:** estruturei análises históricas e segmentações que apoiaram estratégias de cobrança executadas em conjunto com as áreas envolvidas.
+- **Desistências em níveis próximos de zero no novo fluxo de entrada:** analisei gargalos, retrabalhos e falhas de comunicação e apoiei a reestruturação do onboarding com indicadores e etapas de acompanhamento.
+- **Quatro sistemas integrados em uma base analítica:** conectei Gestta, Onvio, Notion e Conta Azul, padronizando estruturas, identificadores e regras para uma visão consolidada.
+- **Indicadores ligados à gestão:** construí análises de SLA, produtividade, tarefas, workflows, carteira de clientes, desempenho de equipes e resultados financeiros.
+- **Melhor organização e desempenho da camada analítica:** modelei fatos e dimensões e migrei transformações de maior complexidade do Power BI para Python e PostgreSQL.
+- **Experiência anterior no setor público:** nos estágios, apoiei tratamento de dados em Excel e painéis Power BI; no TRF1, também desenvolvi e ajustei páginas de internet/intranet com HTML, CSS, JavaScript e ferramentas da Power Platform.
+
+Esses resultados pertencem à experiência profissional relatada nos meus materiais de carreira. Os efeitos sobre cobrança e entrada de clientes envolveram a atuação das equipes; não são impactos medidos nas demonstrações sintéticas do GitHub. Resultados qualitativos não têm percentuais adicionais atribuídos.
 
 ## Vamos conversar
 

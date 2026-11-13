@@ -1,6 +1,6 @@
 # Perfil: conteúdo, critérios e manutenção
 
-Proposta preparada em 21/10/2026 para GabrielTIAlef/GabrielTIAlef. Sem publicação ou alteração do perfil remoto nesta etapa.
+Proposta visual inicial de 21/10/2026. Revisão dos cards, tecnologias e resultados preparada localmente em 13/11/2026; esta nova revisão aguarda autorização para publicação.
 
 ## Direção visual e posicionamento
 
@@ -19,28 +19,57 @@ As vagas públicas abaixo pedem combinações de SQL, Python, Power BI e modelag
 
 As vagas podem mudar ou encerrar. O perfil mostra as competências por meio de projetos e evidências, sem inserir palavras-chave como experiência que Gabriel não declarou.
 
-## Projetos e números
+## Projetos e formato dos cards
 
-Cards referenciam a validação registrada em 20/10/2026:
+Os seis projetos aparecem juntos, sem tabela duplicada ou separação entre casos
+profissionais e estudos. Cada imagem é um link para seu repositório. A distinção
+de contexto aparece no próprio card.
 
-| Projeto | Testes registrados | Evidência |
-| --- | --- | --- |
-| gestao_geral | 72 | README e validação do projeto |
-| gestao_financeira | 55 | README e validação do projeto |
-| automacao_financeira | 65 | docs/VALIDACAO.md |
-| analises_marketing | 43 | docs/VALIDACAO.md |
-| bolsa_valores | 61 | docs/VALIDACAO.md |
+Os cards usam 896 × 300 no desktop e 440 × 410 no celular. Todos têm título,
+área, problema, conhecimento demonstrado, tecnologias e contexto. As variações
+mobile conservam a mesma informação, com quebras adequadas à largura.
 
-Esses números não são recalculados automaticamente a partir de qualquer commit: são um registro datado da entrega. Após mudanças nos testes, atualizar PROJECTS em scripts/build_assets.py, os textos alternativos do README e este registro, conferindo a evidência do repositório correspondente. A automação de indicadores não altera essas alegações profissionais.
+`scripts/project_cards.py` concentra textos e desenho. `scripts/build_assets.py`
+reconstrói os SVGs locais usando esse módulo. Não há contagens de testes nos
+novos cards: os registros de validação continuam nos projetos de origem.
 
-As demonstrações públicas são sintéticas. As integrações corporativas, os painéis no Power BI Desktop e as medidas DAX não são homologados pelos testes de demonstração. As pendências de histórico/caches dos projetos não foram apagadas ou consideradas resolvidas pelo novo README.
+Os projetos são Gestão Geral, Gestão Financeira, Automação Financeira,
+Análises de Marketing, Bolsa de Valores e Agente de Inteligência Operacional.
+O conteúdo deriva dos READMEs e decisões já apresentados no portfólio. As
+integrações corporativas e os painéis no Power BI Desktop não são homologados
+pelas demonstrações sintéticas.
+
+## Resultados e tecnologias
+
+Os resultados profissionais foram conferidos nos materiais de carreira
+fornecidos pelo autor: consolidação de aproximadamente cinco dias para cinco
+minutos; 15 dashboards, seis gerenciais; contribuição para redução aproximada
+de 70% da inadimplência; contribuição para desistências próximas de zero no
+fluxo reestruturado; integração de quatro sistemas; indicadores de gestão;
+modelagem e migração de transformações; e entregas de dados/web nos estágios.
+
+São relatos profissionais, sem logs empresariais publicados. Resultados de
+cobrança e onboarding são apresentados como contribuição junto às equipes.
+Os números não são atribuídos aos testes ou aos dados sintéticos do GitHub.
+
+As tecnologias são agrupadas em dados/bancos, BI, análise/visualização,
+integração/automação, IA/API/interface e ambiente/testes. Os projetos atuais
+sustentam as bibliotecas e ferramentas de demonstração. MySQL, Power Platform
+e Google Sheets aparecem separadamente como experiência/formação documentada.
+O uso da VM Oracle descreve a implantação da demo, sem alegação de especialização
+cloud. Não foram acrescentados AWS, Azure, GCP, Spark, dbt ou Airflow.
+
+Os badges são arquivos locais, com URLs registradas em
+`assets/badges/sources.json`. Rótulos sem marca disponível permanecem textuais;
+não se inventam logos ou certificações. Currículos e documentos pessoais não
+foram copiados para o repositório.
 
 ## Adaptação do prompt visual
 
 - Banner personalizado e rodapé: próprios, com variação de tamanho para celular.
 - Typing animation: SVG local com frases compatíveis com os projetos, sem depender de endpoint externo.
 - Tecnologias com ícones: SVGs do Shields.io preparados como arquivos locais. Origem e URLs registradas em assets/badges/sources.json. Alguns rótulos podem aparecer sem logo quando o catálogo do serviço não contém a marca; não foram atribuídos logos de outras tecnologias.
-- Projetos: cinco cards próprios e clicáveis, com descrição e evidência datada.
+- Projetos: seis cards próprios e clicáveis, do mesmo tamanho por viewport, com problema, conhecimento, stack e contexto.
 - GitHub Stats: contagem de repositórios públicos próprios sem forks e contribuições do calendário público do ano.
 - Top Languages: soma de bytes retornados pelo GitHub em repositórios públicos próprios sem forks. Inclui o portfólio, não só os projetos de dados. Percentual não mede proficiência, tempo de trabalho ou relevância de SQL/DAX/Power BI.
 - Streak: dias consecutivos com contribuição pública no ano mostrado; maior sequência também restrita a esse ano, não recorde de toda a conta. A sequência atual pode terminar ontem se hoje ainda estiver zerado. Dia sem contribuição não mede desempenho profissional.
