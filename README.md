@@ -28,7 +28,9 @@ Gosto de entender de onde vem o dado, conferir se ele faz sentido e tirar do cam
 
 Uso **Python, SQL, PostgreSQL e Power BI** para conectar fontes, organizar bases e construir indicadores ligados à rotina do negócio. Já trabalhei com integrações envolvendo Gestta, Notion, Onvio e Conta Azul.
 
-Nos projetos públicos, acrescentei dados fictícios, testes, documentação e validação automatizada. Assim, quem abre o repositório consegue executar uma demonstração e conferir o comportamento do código sem depender de sistemas corporativos.
+Este portfólio apresenta **como identifico problemas, organizo dados, escolho abordagens e comunico resultados**. Cada projeto conecta contexto, minha atuação, decisões técnicas e evidências para quem deseja conhecer meu trabalho.
+
+Os casos de experiência profissional preservam o contexto e os resultados relatados; os estudos autorais usam dados fictícios. Demonstrações, testes e documentação permitem aprofundar a avaliação sem acesso a sistemas corporativos.
 
 **Meu foco profissional:** Análise de Dados e BI, com interesse em Analytics Engineering pela combinação de SQL, modelagem, testes e confiabilidade dos dados.
 
@@ -50,7 +52,18 @@ Nos projetos públicos, acrescentei dados fictícios, testes, documentação e v
 
 ## Projetos para conhecer meu trabalho
 
-Comece pelo **Gestão Geral** para ver integrações e ETL. O **Gestão Financeira** concentra modelagem e cargas; o **Automação Financeira**, coordenação de processos e tratamento de falhas.
+Os projetos mostram competências complementares. Para uma primeira leitura, estes são os problemas e as decisões que cada caso permite discutir:
+
+| Projeto | Problema ou pergunta | Conhecimento que apresento |
+| --- | --- | --- |
+| [Gestão Geral](https://github.com/GabrielTIAlef/gestao_geral) | Como consolidar tarefas e cadastros para acompanhar uma operação? | Integração de fontes, ETL e indicadores operacionais, com resultado corporativo relatado |
+| [Gestão Financeira](https://github.com/GabrielTIAlef/gestao_financeira) | Como organizar informações financeiras sem perder lançamentos ou duplicar títulos? | Modelagem dimensional, chaves de negócio e reconciliação para BI |
+| [Automação Financeira](https://github.com/GabrielTIAlef/automacao_financeira) | Como combinar recebíveis automáticos e acompanhamento manual? | Integração de APIs, preservação de informações e recuperação de falhas |
+| [Análises de Marketing](https://github.com/GabrielTIAlef/analises_marketing) | Como descrever perfis de clientes e avaliar uma segmentação? | Análise exploratória, KMeans, sensibilidade e interpretação dos grupos |
+| [Bolsa de Valores](https://github.com/GabrielTIAlef/bolsa_valores) | Como comparar séries sem confundir preço, retorno e risco? | Indicadores temporais, SQL e comunicação de resultados descritivos |
+| [Inteligência Operacional](https://github.com/GabrielTIAlef/agente_inteligencia_operacional) | Como conectar perguntas operacionais, indicadores, monitoramento e IA? | Análise de negócio, PostgreSQL, BI e uso de ferramentas restritas no assistente |
+
+As descrições e os resultados dos estudos fictícios não são apresentados como impacto em clientes reais. Os cards abaixo dão acesso aos repositórios; números de testes neles representam registros de validação, não uma medida de experiência profissional.
 
 <a href="https://github.com/GabrielTIAlef/gestao_geral"><picture><source media="(max-width: 600px)" srcset="assets/cards/gestao_geral-mobile.svg" /><img src="assets/cards/gestao_geral.svg" width="100%" alt="Gestão Geral — APIs, ETL e PostgreSQL, com validação de cargas e demonstração reproduzível. 72 testes registrados." /></picture></a>
 
