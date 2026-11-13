@@ -124,6 +124,10 @@ As ferramentas abaixo aparecem nos projetos públicos e na experiência document
 </p>
 
 <p>
+  <a href="https://github.com/GabrielTIAlef/agente_inteligencia_operacional"><picture><source media="(max-width: 600px)" srcset="assets/cards/agente_inteligencia_operacional-mobile.svg" /><img src="assets/cards/agente_inteligencia_operacional.svg" width="100%" alt="Agente de Inteligência Operacional — Como conectar perguntas operacionais, indicadores, monitoramento e IA? — Análise de negócio, PostgreSQL, BI e uso de ferramentas restritas no assistente." /></picture></a>
+</p>
+
+<p>
   <a href="https://github.com/GabrielTIAlef/gestao_financeira"><picture><source media="(max-width: 600px)" srcset="assets/cards/gestao_financeira-mobile.svg" /><img src="assets/cards/gestao_financeira.svg" width="100%" alt="Gestão Financeira — Como organizar informações financeiras sem perder lançamentos ou duplicar títulos? — Modelagem dimensional, chaves de negócio e reconciliação para BI." /></picture></a>
 </p>
 
@@ -137,10 +141,6 @@ As ferramentas abaixo aparecem nos projetos públicos e na experiência document
 
 <p>
   <a href="https://github.com/GabrielTIAlef/bolsa_valores"><picture><source media="(max-width: 600px)" srcset="assets/cards/bolsa_valores-mobile.svg" /><img src="assets/cards/bolsa_valores.svg" width="100%" alt="Bolsa de Valores — Como comparar séries sem confundir preço, retorno e risco? — Indicadores temporais, SQL e comunicação de resultados descritivos." /></picture></a>
-</p>
-
-<p>
-  <a href="https://github.com/GabrielTIAlef/agente_inteligencia_operacional"><picture><source media="(max-width: 600px)" srcset="assets/cards/agente_inteligencia_operacional-mobile.svg" /><img src="assets/cards/agente_inteligencia_operacional.svg" width="100%" alt="Agente de Inteligência Operacional — Como conectar perguntas operacionais, indicadores, monitoramento e IA? — Análise de negócio, PostgreSQL, BI e uso de ferramentas restritas no assistente." /></picture></a>
 </p>
 
 Os cards conectam problema, abordagem e competências; cada um abre o respectivo projeto. Os READMEs distinguem experiência original, implementação pública e resultados validados. As demonstrações usam dados fictícios.
