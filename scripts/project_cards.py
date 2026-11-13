@@ -9,6 +9,11 @@ PROJECTS = [
          knowledge='Integração de fontes, ETL e indicadores operacionais, com resultado corporativo relatado.',
          stack='PYTHON / SQL / POSTGRESQL / APIs / POWER BI',
          scope='Experiência corporativa + demonstração pública sintética'),
+    dict(slug='agente_inteligencia_operacional', name='Agente de Inteligência Operacional', area='BI, automação e IA aplicada',
+         problem='Como conectar perguntas operacionais, indicadores, monitoramento e IA?',
+         knowledge='Análise de negócio, PostgreSQL, BI e uso de ferramentas restritas no assistente.',
+         stack='PYTHON / SQL / FASTAPI / REACT / GEMINI / N8N',
+         scope='Projeto autoral · cenário e pedidos sintéticos'),
     dict(slug='gestao_financeira', name='Gestão Financeira', area='Modelagem e BI financeiro',
          problem='Como organizar informações financeiras sem perder lançamentos ou duplicar títulos?',
          knowledge='Modelagem dimensional, chaves de negócio e reconciliação para BI.',
@@ -29,11 +34,6 @@ PROJECTS = [
          knowledge='Indicadores temporais, SQL e comunicação de resultados descritivos.',
          stack='PYTHON / PANDAS / NUMPY / SQLITE / JUPYTER',
          scope='Estudo analítico · ativos e resultados da demo fictícios'),
-    dict(slug='agente_inteligencia_operacional', name='Agente de Inteligência Operacional', area='BI, automação e IA aplicada',
-         problem='Como conectar perguntas operacionais, indicadores, monitoramento e IA?',
-         knowledge='Análise de negócio, PostgreSQL, BI e uso de ferramentas restritas no assistente.',
-         stack='PYTHON / SQL / FASTAPI / REACT / GEMINI / N8N',
-         scope='Projeto autoral · cenário e pedidos sintéticos'),
 ]
 
 
