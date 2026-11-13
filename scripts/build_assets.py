@@ -4,18 +4,7 @@ from pathlib import Path
 from update_metrics import svg, text, BG, BORDER, TEXT, MUTED, BLUE, CYAN
 
 ROOT = Path(__file__).resolve().parents[1]
-PROJECTS = [
-    ('gestao_geral', 'Gestão Geral', 'Integração de dados operacionais',
-     ['APIs, ETL e PostgreSQL em um fluxo só.', 'Validação de cargas e demonstração reproduzível.'], 'PYTHON / SQL / POSTGRESQL / APIs', 72),
-    ('gestao_financeira', 'Gestão Financeira', 'ETL e modelagem dimensional',
-     ['Carga transacional, chaves de negócio', 'e reconciliação de dados financeiros.'], 'PANDAS / SQL / POSTGRESQL', 55),
-    ('automacao_financeira', 'Automação Financeira', 'Integrações e confiabilidade',
-     ['Conta Azul, Notion e controle de falhas.', 'Dados fictícios e efeitos externos simulados.'], 'PYTHON / APIs / AUTOMAÇÃO', 65),
-    ('analises_marketing', 'Análises de Marketing', 'Segmentação exploratória de clientes',
-     ['KMeans com comparação e estabilidade.', 'Notebook, perfis e métricas documentadas.'], 'PANDAS / SCIKIT-LEARN / KMEANS', 43),
-    ('bolsa_valores', 'Bolsa de Valores', 'Análise temporal e SQL',
-     ['Indicadores com fórmulas verificadas.', 'SQLite e Python com valores reconciliados.'], 'PYTHON / SQLITE / SÉRIES TEMPORAIS', 61)
-]
+from project_cards import build_project_cards
 
 
 def build():
@@ -60,45 +49,7 @@ def build():
     (assets / 'typing.svg').write_text(svg(896, 56, 'Integrações, modelagem e BI — texto animado', typing), encoding='utf-8')
     (assets / 'typing-mobile.svg').write_text(svg(440, 56, 'Integrações, modelagem e BI — texto animado',
         typing.replace('font-size="20"', 'font-size="16"').replace('820', '392')), encoding='utf-8')
-    for index, (slug, name, category, lines, stack, count) in enumerate(PROJECTS):
-        hero = index == 0
-        width = 896 if hero else 440
-        body = text(24, 31, f'0{index+1} / {category.upper()}', 10, CYAN, 700)
-        body += text(24, 78, name, 34 if hero else 24, TEXT, 700)
-        for y, line in zip([111, 132], lines):
-            body += text(24, y, line, 14, MUTED)
-        body += f'<path d="M24 155H{width-24}" stroke="{BORDER}"/>'
-        body += text(24, 180, stack, 10, BLUE, 600)
-        body += text(24, 203, f'{count} testes · validação em 20/10/2026', 12, MUTED)
-        body += text(width-43, 78, '↗', 23, CYAN)
-        if hero:
-            body += text(626, 100, 'ETL', 48, BLUE, 700) + text(628, 132, 'da fonte à base analítica', 14, MUTED)
-        (assets / 'cards' / (slug + '.svg')).write_text(svg(width, 220, f'{name}: {category}. {count} testes registrados.', body), encoding='utf-8')
-        if hero:
-            mobile_card = (text(24, 31, '01 / INTEGRAÇÃO DE DADOS', 10, CYAN, 700)
-                           + text(24, 78, name, 28, TEXT, 700)
-                           + text(24, 111, 'APIs, ETL e PostgreSQL em um fluxo só.', 14, MUTED)
-                           + text(24, 132, 'Cargas validadas e demo reproduzível.', 14, MUTED)
-                           + text(24, 180, stack, 10, BLUE, 600)
-                           + text(24, 203, f'{count} testes · validação em 20/10/2026', 12, MUTED))
-            (assets / 'cards/gestao_geral-mobile.svg').write_text(svg(440, 220, name, mobile_card), encoding='utf-8')
-    name = 'Agente de Inteligência Operacional'
-    description = f'{name}. Indicadores SQL, chat com Gemini e relatórios com n8n. 40 testes Python registrados.'
-    for width, suffix in ((896, ''), (440, '-mobile')):
-        body = text(24, 31, '06 / IA GENERATIVA E AUTOMAÇÃO', 10, CYAN, 700)
-        if suffix:
-            body += text(24, 67, 'Agente de Inteligência', 28, TEXT, 700)
-            body += text(24, 98, 'Operacional', 28, TEXT, 700)
-        else:
-            body += text(24, 78, name, 34, TEXT, 700)
-        body += text(24, 122, 'Indicadores SQL e chat com Gemini.', 14, MUTED)
-        body += text(24, 143, 'Relatórios operacionais com n8n.', 14, MUTED)
-        body += f'<path d="M24 155H{width-24}" stroke="{BORDER}"/>'
-        body += text(24, 180, 'PYTHON / FASTAPI / REACT / POSTGRESQL / GEMINI / N8N', 10, BLUE, 600)
-        body += text(24, 203, '40 testes Python · demo local com dados sintéticos', 12, MUTED)
-        body += text(width-43, 78, '↗', 23, CYAN)
-        (assets / 'cards' / f'agente_inteligencia_operacional{suffix}.svg').write_text(
-            svg(width, 220, description, body), encoding='utf-8')
+    build_project_cards(assets)
 
     footer = text(24, 32, 'GABRIEL ÁLEF', 12, CYAN, 700) + text(24, 59, 'Dados, BI e automação. Vamos conversar sobre o próximo projeto?', 15, MUTED)
     footer += '<path d="M650 48h45l13-13 22 23 14-10h126" fill="none" stroke="#6495ff" stroke-width="2"/>'
