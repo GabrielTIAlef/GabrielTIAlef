@@ -57,7 +57,7 @@ def build():
     (assets / 'footer-mobile.svg').write_text(svg(440, 100, 'Gabriel Álef — vamos conversar',
         text(24, 28, 'GABRIEL ÁLEF', 12, CYAN, 700) + text(24, 56, 'Dados, BI e automação.', 17, MUTED)
         + text(24, 81, 'Vamos conversar sobre o próximo projeto?', 15, MUTED)), encoding='utf-8')
-    print('Banner, animação, seis cards e rodapé gerados.')
+    print('Banner, animação, cards e rodapé gerados.')
 
 
 if __name__ == '__main__':

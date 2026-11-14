@@ -90,6 +90,7 @@ As ferramentas abaixo aparecem nos projetos públicos e na experiência document
   <img src="assets/badges/pydantic.svg" alt="Pydantic" />
   <img src="assets/badges/uvicorn.svg" alt="Uvicorn" />
   <img src="assets/badges/react.svg" alt="React" />
+  <img src="assets/badges/recharts.svg" alt="Recharts" />
   <img src="assets/badges/vite.svg" alt="Vite" />
   <img src="assets/badges/javascript.svg" alt="JavaScript" />
   <img src="assets/badges/html.svg" alt="HTML" />
@@ -103,6 +104,9 @@ As ferramentas abaixo aparecem nos projetos públicos e na experiência document
   <img src="assets/badges/github.svg" alt="GitHub" />
   <img src="assets/badges/github-actions.svg" alt="GitHub Actions" />
   <img src="assets/badges/pytest.svg" alt="pytest" />
+  <img src="assets/badges/ruff.svg" alt="Ruff" />
+  <img src="assets/badges/eslint.svg" alt="ESLint" />
+  <img src="assets/badges/playwright.svg" alt="Playwright" />
   <img src="assets/badges/docker.svg" alt="Docker" />
   <img src="assets/badges/docker-compose.svg" alt="Docker Compose" />
   <img src="assets/badges/nginx.svg" alt="Nginx" />
@@ -125,6 +129,10 @@ As ferramentas abaixo aparecem nos projetos públicos e na experiência document
 
 <p>
   <a href="https://github.com/GabrielTIAlef/agente_inteligencia_operacional"><picture><source media="(max-width: 600px)" srcset="assets/cards/agente_inteligencia_operacional-mobile.svg" /><img src="assets/cards/agente_inteligencia_operacional.svg" width="100%" alt="Agente de Inteligência Operacional — Como conectar perguntas operacionais, indicadores, monitoramento e IA? — Análise de negócio, PostgreSQL, BI e uso de ferramentas restritas no assistente." /></picture></a>
+</p>
+
+<p>
+  <a href="https://github.com/GabrielTIAlef/DatAtlas"><picture><source media="(max-width: 600px)" srcset="assets/cards/datatlas-mobile.svg" /><img src="assets/cards/datatlas.svg" width="100%" alt="DatAtlas — Como explorar uma planilha e conferir se gráficos, perguntas e relatório usam o mesmo recorte? — Análise exploratória, qualidade dos dados, filtros coordenados e IA com cálculo verificável." /></picture></a>
 </p>
 
 <p>
