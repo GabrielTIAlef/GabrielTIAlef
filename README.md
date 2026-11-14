@@ -24,6 +24,8 @@
 
 Sou **Gabriel Álef**, analista de dados e formado em Análise e Desenvolvimento de Sistemas.
 
+Atualmente curso **Tecnólogo em Ciência de Dados na Gran Faculdade**, com início em **novembro de 2026** e conclusão estimada em **novembro de 2028**.
+
 Gosto de entender de onde vem o dado, conferir se ele faz sentido e tirar do caminho o trabalho que não precisa continuar manual. Minha experiência reúne **integração de sistemas, ETL, modelagem de dados e dashboards operacionais e financeiros**.
 
 Uso **Python, SQL, PostgreSQL e Power BI** para conectar fontes, organizar bases e construir indicadores ligados à rotina do negócio. Já trabalhei com integrações envolvendo Gestta, Notion, Onvio e Conta Azul.

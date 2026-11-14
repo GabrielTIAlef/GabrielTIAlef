@@ -124,3 +124,11 @@ As tecnologias acrescentadas são Recharts, Ruff, ESLint e Playwright, declarada
 no código/manifestos do DatAtlas. Não foram acrescentados resultados empresariais
 a partir da demonstração. Os seis cards anteriores mantêm o conteúdo e o tamanho;
 a numeração foi atualizada para refletir a nova ordem.
+
+## Formação atualizada em 14/11/2026
+
+Por informação direta do titular: Tecnólogo em Ciência de Dados na Gran Faculdade,
+iniciado em novembro de 2026, com conclusão estimada em novembro de 2028.
+A estimativa decorre da duração informada, sem confirmação do calendário oficial.
+A formação concluída em Análise e Desenvolvimento de Sistemas permanece.
+A apresentação atual não inclui o MBA anterior como formação em andamento.
