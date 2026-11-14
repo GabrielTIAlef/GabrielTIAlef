@@ -1,15 +1,16 @@
 {
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "username": "GabrielTIAlef",
-  "public_repositories": 8,
+  "public_repositories": 9,
   "languages": {
-    "Python": 464866,
-    "HTML": 159958,
-    "JavaScript": 34612,
-    "CSS": 21950,
+    "Python": 534409,
+    "HTML": 186112,
+    "JavaScript": 86447,
+    "CSS": 54416,
     "Jupyter Notebook": 11647,
-    "PowerShell": 4735,
-    "Dockerfile": 552
+    "PowerShell": 6012,
+    "Dockerfile": 552,
+    "Batchfile": 99
   },
   "days": [
     {
@@ -704,7 +705,7 @@
     },
     {
       "date": "2026-05-19",
-      "level": 4,
+      "level": 3,
       "count": 24
     },
     {
@@ -1474,7 +1475,7 @@
     },
     {
       "date": "2026-10-20",
-      "level": 4,
+      "level": 3,
       "count": 22
     },
     {
@@ -1559,7 +1560,7 @@
     },
     {
       "date": "2026-11-06",
-      "level": 2,
+      "level": 1,
       "count": 7
     },
     {
@@ -1574,7 +1575,7 @@
     },
     {
       "date": "2026-11-09",
-      "level": 3,
+      "level": 2,
       "count": 14
     },
     {
@@ -1595,7 +1596,12 @@
     {
       "date": "2026-11-13",
       "level": 4,
-      "count": 27
+      "count": 36
+    },
+    {
+      "date": "2026-11-14",
+      "level": 0,
+      "count": 0
     }
   ],
   "scope": "Somente repositórios públicos próprios e calendário público do ano atual."
