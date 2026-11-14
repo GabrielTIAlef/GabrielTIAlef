@@ -21,7 +21,7 @@ As vagas podem mudar ou encerrar. O perfil mostra as competências por meio de p
 
 ## Projetos e formato dos cards
 
-Os seis projetos aparecem juntos, sem tabela duplicada ou separação entre casos
+Os sete projetos aparecem juntos, sem tabela duplicada ou separação entre casos
 profissionais e estudos. Cada imagem é um link para seu repositório. A distinção
 de contexto aparece no próprio card.
 
@@ -33,8 +33,9 @@ mobile conservam a mesma informação, com quebras adequadas à largura.
 reconstrói os SVGs locais usando esse módulo. Não há contagens de testes nos
 novos cards: os registros de validação continuam nos projetos de origem.
 
-Os projetos são Gestão Geral, Gestão Financeira, Automação Financeira,
-Análises de Marketing, Bolsa de Valores e Agente de Inteligência Operacional.
+A ordem é Gestão Geral, Agente de Inteligência Operacional, DatAtlas, Gestão
+Financeira, Automação Financeira, Análises de Marketing e Bolsa de Valores.
+DatAtlas foi incluído em terceiro por solicitação do titular em 13/11/2026.
 O conteúdo deriva dos READMEs e decisões já apresentados no portfólio. As
 integrações corporativas e os painéis no Power BI Desktop não são homologados
 pelas demonstrações sintéticas.
@@ -69,7 +70,7 @@ foram copiados para o repositório.
 - Banner personalizado e rodapé: próprios, com variação de tamanho para celular.
 - Typing animation: SVG local com frases compatíveis com os projetos, sem depender de endpoint externo.
 - Tecnologias com ícones: SVGs do Shields.io preparados como arquivos locais. Origem e URLs registradas em assets/badges/sources.json. Alguns rótulos podem aparecer sem logo quando o catálogo do serviço não contém a marca; não foram atribuídos logos de outras tecnologias.
-- Projetos: seis cards próprios e clicáveis, do mesmo tamanho por viewport, com problema, conhecimento, stack e contexto.
+- Projetos: sete cards próprios e clicáveis, do mesmo tamanho por viewport, com problema, conhecimento, stack e contexto.
 - GitHub Stats: contagem de repositórios públicos próprios sem forks e contribuições do calendário público do ano.
 - Top Languages: soma de bytes retornados pelo GitHub em repositórios públicos próprios sem forks. Inclui o portfólio, não só os projetos de dados. Percentual não mede proficiência, tempo de trabalho ou relevância de SQL/DAX/Power BI.
 - Streak: dias consecutivos com contribuição pública no ano mostrado; maior sequência também restrita a esse ano, não recorde de toda a conta. A sequência atual pode terminar ontem se hoje ainda estiver zerado. Dia sem contribuição não mede desempenho profissional.
@@ -115,3 +116,11 @@ O último comando precisa de internet. Não execute coleta apenas para rodar os 
 - [Snake: referência do tipo de visualização](https://github.com/Platane/snk)
 
 Os SVGs e o código desta proposta foram criados para o perfil; não copiam os geradores dos projetos de referência.
+
+## DatAtlas
+
+O card apresenta análise exploratória, qualidade, recortes e IA com cálculo local.
+As tecnologias acrescentadas são Recharts, Ruff, ESLint e Playwright, declaradas
+no código/manifestos do DatAtlas. Não foram acrescentados resultados empresariais
+a partir da demonstração. Os seis cards anteriores mantêm o conteúdo e o tamanho;
+a numeração foi atualizada para refletir a nova ordem.

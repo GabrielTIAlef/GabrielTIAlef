@@ -47,7 +47,11 @@
     "nginx": "https://img.shields.io/badge/Nginx-17263B?style=for-the-badge&logo=nginx&logoColor=56D6DB",
     "linux": "https://img.shields.io/badge/Linux-17263B?style=for-the-badge&logo=linux&logoColor=56D6DB",
     "systemd": "https://img.shields.io/badge/systemd-17263B?style=for-the-badge&logo=systemd&logoColor=56D6DB",
-    "oracle-vm": "https://img.shields.io/badge/Oracle%20VM-17263B?style=for-the-badge"
+    "oracle-vm": "https://img.shields.io/badge/Oracle%20VM-17263B?style=for-the-badge",
+    "recharts": "https://img.shields.io/badge/Recharts-17263B?style=for-the-badge",
+    "ruff": "https://img.shields.io/badge/Ruff-17263B?style=for-the-badge",
+    "eslint": "https://img.shields.io/badge/ESLint-17263B?style=for-the-badge",
+    "playwright": "https://img.shields.io/badge/Playwright-17263B?style=for-the-badge"
   },
   "expanded_on": "2026-11-13"
 }
